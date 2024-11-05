@@ -27,5 +27,3 @@ for index, task in enumerate(to_do_list):
 
 st.text_input(label=" ", placeholder="Enter a task",
               on_change=add_task, key="new_task")
-
-st.session_state
